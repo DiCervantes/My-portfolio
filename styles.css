@@ -6,8 +6,8 @@ body {
     line-height: 1.6; /* Maintained line height */
     margin: 0;
     padding: 0;
-    color: #fff;
-    background: #000;
+    background-color: #1b1b1b; /* Darker background for better contrast */
+    color: #f1f1f1;
 }
 
 header .hero {
@@ -203,4 +203,23 @@ form button:hover {
 
 .project-details a:hover {
     color: #1565c0;
+}
+@media screen and (max-width: 600px) {
+    header {
+        font-size: 1.5rem;
+        padding: 1rem;
+    }
+
+    .resume-content {
+        padding: 1rem;
+    }
+
+    .photo-container img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    ul {
+        padding-left: 1rem;
+    }
 }
